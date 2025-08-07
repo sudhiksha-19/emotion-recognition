@@ -1,0 +1,27 @@
+.charts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  border-radius: 15px;
+  margin-top: 40px;
+  color: #333;
+}
+
+.chart {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+.report-box {
+  background-color: #ffffffcc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+  white-space: pre-line;
+}

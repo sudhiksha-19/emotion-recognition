@@ -1,0 +1,35 @@
+.report-container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+  background: #f0f8ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.report-heading {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.report-box {
+  background-color: #ffffff;
+  border-left: 6px solid #36a2eb;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  color: #333;
+  border-radius: 8px;
+}
+
+.no-data {
+  text-align: center;
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}

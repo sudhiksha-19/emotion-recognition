@@ -1,0 +1,111 @@
+/* Reset & Base */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f9f7f7, #dbe2ef);
+  color: #112d4e;
+  transition: all 0.3s ease-in-out;
+}
+
+.App {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Headers */
+h1, h2, h3 {
+  text-align: center;
+  color: #3f72af;
+}
+
+/* Buttons */
+button {
+  background-color: #3f72af;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #112d4e;
+}
+
+/* Inputs */
+input[type="file"] {
+  border: 2px dashed #3f72af;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  transition: border-color 0.3s;
+}
+
+input[type="file"]:hover {
+  border-color: #112d4e;
+}
+
+/* Cards */
+.card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Charts */
+.chart-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Page Transitions */
+.fade-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.6s ease;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
